@@ -159,7 +159,7 @@ class _CustomFijkPanelState extends State<CustomFijkPanel>
       });
     }
     Future.delayed(Duration(milliseconds: 100), () {
-      _animationController!.forward();
+      //_animationController!.forward();
     });
   }
 
